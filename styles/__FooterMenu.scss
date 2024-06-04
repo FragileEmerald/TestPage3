@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.FooterMenu {
+    width: 100%;
+    max-width: 1140px;
+}
+
+.FooterMenu__Button {
+    width: 370px;
+    height: 70px;
+    background-image: linear-gradient(180deg, #ff7c6e 1%, #f5317f 99%);
+    box-shadow: 0px 11px 14.5px 0px rgba(255,7,94,0.2);
+    border: 0px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+    @media screen and (max-width: 720px) and (min-width: 501px) {
+        width: 340px;
+        height: 65px;
+    }
+    @media screen and (max-width: 500px) {
+        width: 280px;
+        height: 55px;
+        font-size: 16px;
+    }
+    @media screen and (max-width: 500px) {
+        width: 250px;
+        height: 50px;
+        font-size: 14px;
+    }
+}
+
+.FooterMenu__ButtonBox {
+    text-align: center;
+    margin-top: -35px;
+}
+
+.FooterMenu__LinksListBox {
+    margin: 100px auto;
+    width: 60%;
+    height: 180px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+    @media screen and (max-width: 720px) {
+        margin-top: 60px;
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 95%;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 25px;
+    }
+    @media screen and (max-width: 500px) {
+        margin: 40px 5px 15px 5px;
+    }
+}
+
+.FooterMenu__LinksListBox__Column {
+    text-align: left;
+    display: grid;
+    grid-template-rows: 50px 18px 18px 18px 18px;
+    grid-gap: 10px;
+    @media screen and (max-width: 500px) {
+        font-size: 11px;
+        grid-template-rows: 40px 15px 15px 15px 15px;
+    }
+    @media screen and (max-width: 360px) {
+        text-align: center;
+    }
+}
+
+.FooterMenu__LinksListBox__Column_Title {
+    font-size: 15px;
+    line-height: 27px;
+    color: #233148;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    @media screen and (max-width: 720px) {
+        font-size: 14px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 12px;
+    }
+    @media screen and (max-width: 360px) {
+        font-size: 10px;
+    }
+}
+
+.LinksListBox__ColumnLink {
+    text-decoration: none;
+    font-size: 14px;
+    color: #6a6d89;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    margin-bottom: 10px;
+    @media screen and (max-width: 720px) {
+        font-size: 12px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 11px;
+    }
+    @media screen and (max-width: 360px) {
+        font-size: 9px;
+    }
+}
+
+.FooterMenu__TitleTouch {
+    font-size: 30px;
+    color: #233148;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    @media screen and (max-width: 720px) {
+        font-size: 26px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 22px;
+    }
+}
+
+.FooterMenu__TitleText {
+    font-size: 14px;
+    color: #6a6d89;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    display: block;
+    margin-top: 25px;
+    @media screen and (max-width: 720px) {
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 13px;
+    }
+}
+
+.FooterMenu__InputBox {
+    margin: 0 auto;
+    width: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 60px;
+    @media screen and (max-width: 720px) {
+        margin-top: 50px;
+    }
+    @media screen and (max-width: 360px) {
+        width: 95%;
+        justify-content: space-between;
+    }
+}
+
+.FooterMenu__InputBox__Input {
+    width: 65%;
+    height: 50px;
+    background-color: #f6f7fb;
+    border: 0px;
+    font-size: 20px;
+    @media screen and (max-width: 720px) {
+        width: 70%;
+        height: 40px;
+    }
+}
+
+.FooterMenu__InputBox__Button {
+    background-color: #33d2fd;
+    border: 0px;
+    height: 50px;
+    width: 100%;
+    font-size: 15px;
+    color: #233148;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    cursor: pointer;
+    @media screen and (max-width: 720px) {
+        height: 40px;
+        font-size: 13px;
+    }
+    @media screen and (max-width: 500px) {
+        font-size: 11px;
+    }
+    @media screen and (max-width: 360px) {
+        font-size: 10px;
+    }
+}
+
+.InputBox__Button__Anchor {
+    width: 20%;
+    @media screen and (max-width: 360px) {
+        width: 25%;
+    }
+}
+

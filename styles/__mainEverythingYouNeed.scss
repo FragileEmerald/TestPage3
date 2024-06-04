@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Main__EverythingYouNeed {
+    width: 100%;
+    max-width: 1140px;
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 500px) {
+        flex-wrap: wrap;
+    }
+}
+
+.EveyrthingYouNeed__ImageBox {
+    width: 45%;
+    @media screen and (max-width: 900px) {
+        width: 50%;
+    }
+    @media screen and (max-width: 720px) {
+        width: 45%;
+    }
+    @media screen and (max-width: 500px) {
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+.ImageBox__Image {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+    border-radius: 10px;
+    box-shadow: 10px 10px 7px -8px rgba(0,0,0,0.64);
+    @media screen and (max-width: 900px) and (min-width: 721px) {
+        width: 360px;
+    }
+    @media screen and (max-width: 720px) {
+        width: 100%;
+        margin: 40px auto;
+    }
+}
+
+.EveyrthingYouNeed__TextBox {
+    width: 45%;
+    text-align: left;
+    padding-right: 30px;
+    @media screen and (max-width: 720px) {
+        width: 50%;
+        padding-right: 10px;
+    }
+    @media screen and (max-width: 500px) {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+.EveyrthingYouNeed__TextBox__PhoneBox {
+    display: flex;
+    margin-top: 10px;
+    @media screen and (max-width: 500px) {
+    justify-content: center;
+    }
+}
+
+.EveyrthingYouNeed__TextBox__Title {
+    font-size: 30px;
+    color: #233148;
+    font-weight: 700;
+    font-family: "Work Sans";
+    margin-top: 0;
+    margin-bottom: 40px;
+    @media screen and (max-width: 900px) {
+        font-size: 28px;
+        margin-bottom: 20px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 22px;
+        margin-bottom: 15px;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 18px;
+    }
+}
+
+
+.EverythingYouNeed__TextBox__CheckBox {
+    background-color: #33d2fd;
+    width: 18px;
+    height: 18px;
+    border-radius: 9px;
+    text-align: center;
+    font-size: 11px;
+    padding: 4px;
+    @media screen and (max-width: 600px) {
+        font-size: 10px;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 9px;
+    }
+}
+
+.EveyrthingYouNeed__TextBox__OSCheck {
+    margin-left: 12px;
+    font-size: 15px;
+    color: #233148;
+    font-weight: 600;
+    font-family: "Work Sans";
+    padding-bottom: 2px;
+    @media screen and (max-width: 600px) {
+        font-size: 14px;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 12px;
+        padding-bottom: 0;
+        padding-top: 2px;
+    }
+}
+
+.EveyrthingYouNeed__TextBox__Text {
+    font-size: 14px;
+    line-height: 27px;
+    color: #6a6d89;
+    font-weight: 400;
+    font-family: "Work Sans";
+    margin-top: 40px;
+    @media screen and (max-width: 900px) and (min-width: 601px) {
+        margin-top: 10px;
+        line-height: 22px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 13px;
+        line-height: 18px;
+        margin-top: 10px;
+    }
+    @media screen and (max-width: 400px) {
+        font-size: 12px;
+        line-height: 16px;
+    }
+}

@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Main__AdvantagesMenu {
+    width: 100%;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Main__AdvantagesMenu__ImageBox {
+    width: 35%;
+    padding-right: 50px;
+    text-align: right;
+    @media screen and (max-width: 420px) {
+        width: 25%;
+        padding-right: 0;
+    }
+}
+
+.Main__AdvantagesMenu__MenuBox {
+    width: 63.2%;
+    padding-right: 20px;
+    padding-top: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    @media screen and (max-width: 720px) {
+       justify-content: space-between;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        justify-content: space-evenly;
+    }
+    @media screen and (max-width: 600px) {
+        width: 70%;
+        padding-right: 0;
+    }
+    @media screen and (max-width: 420px) {
+        width: 75%;
+        padding-left: 10px;
+        justify-content: space-evenly;
+    }
+    @media screen and (max-width: 420px) {
+        padding-left: 25px;
+    }
+ }
+
+
+.Main__PhoneImage {
+    margin-top: 320px;
+    width: 220px;
+    @media screen and (max-width: 720px) and (min-width: 601px) {
+        margin-top: 200px;
+        margin-left: 40px;
+        width: 180px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        margin-top: 150px;
+        width: 200px;
+    }
+    @media screen and (max-width: 600px) and (min-width: 521px) {
+        margin-top: 200px;
+        margin-left: 20px;
+        width: 140px;
+    }
+    @media screen and (max-width: 520px) and (min-width: 421px) {
+        margin-top: 150px;
+        margin-left: 10px;
+        width: 120px;
+    }
+    @media screen and (max-width: 420px) {
+        margin-top: 160px;
+        margin-left: 2px;
+        width: 90px;
+    }
+}
+
+.AdvantageBox {
+    width: 240px;
+    height: 300px;
+    border-radius: 5px;
+    filter: drop-shadow(0px 6px 4.5px rgba(35,39,47,0.1));
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 10px;
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        width: 200px;
+        height: 260px;
+        margin-bottom: 15px;
+    }
+    @media screen and (max-width: 720px) and (min-width: 601px) {
+        width: 45%;
+        height: 48%;
+    }
+    @media screen and (max-width: 600px) and (min-width: 421px) {
+        width: 45%;
+        height: 45%;
+    }
+    @media screen and (max-width: 420px) {
+        width: 110px;
+        height: 140px;
+        margin-top: 5px;
+        overflow: scroll;
+    }
+    @media screen and (max-width: 342px) {
+        width: 90px;
+        height: 115px;
+        padding: 0;
+    }
+}
+
+.Main__AdvantagesMenu__FreeDays {
+    margin-left: 100px;
+    @media screen and (max-width: 720px) and (min-width: 601px) {
+        margin-left: 30px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 751px) {
+        margin-left: 20px;
+    }
+    @media screen and (max-width: 750px) and (min-width: 721px) {
+        margin-left: 0px;
+    }
+    @media screen and (max-width: 600px) {
+        margin-left: 0px;
+    }
+}
+
+.Main__AdvantagesMenu__Support {
+    margin-top: 100px;
+    margin-left: 60px;
+    @media screen and (max-width: 720px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 751px) {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 750px) and (min-width: 721px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 420px) {
+        margin-top: 5px;
+    }
+
+}
+
+.Main__AdvantagesMenu__Design {
+    margin-left: 20px;
+    @media screen and (max-width: 720px) and (min-width: 601px) {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 751px) {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 750px) and (min-width: 721px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 600px) {
+        margin-left: 0px;
+    }
+}
+
+.Main__AdvantagesMenu__User {
+    margin-left: 80px;
+    margin-top: 80px;
+    @media screen and (max-width: 720px) and (min-width: 601px) {
+        margin-left: 0px;
+        margin-top: 20px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 751px) {
+        margin-left: 20px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 750px) and (min-width: 721px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 600px) {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    @media screen and (max-width: 420px) {
+        margin-top: 5px;
+    }
+}
+
+.AdvantageBox__ImageContainer {
+    margin: 40px auto;
+    width: 55px;
+    height: 55px;
+    margin-bottom: 25px;
+    @media screen and (max-width: 720px) {
+        margin: 30px auto;
+        margin-bottom: 5px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        margin: 25px auto;
+        margin-bottom: 5px;
+    }
+    @media screen and (max-width: 600px) {
+        margin: 20px auto;
+        margin-bottom: 0px;
+        height: 40px;
+        @media screen and (max-width: 342px) {
+            margin: 10px auto;
+            height: 20px;
+        }
+    }
+}
+
+.AdvantageBox__ImageContainer__Image {
+    @media screen and (max-width: 720px) {
+        width: 40px;
+        height: auto;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        width: 45px;
+        height: auto;
+    }
+    @media screen and (max-width: 600px) {
+        width: 30px;
+        height: auto;
+    }
+    @media screen and (max-width: 342px) {
+        width: 20px;
+        height: auto;
+    }
+}
+
+
+.AdvantageBox__Title {
+    font-size: 14px;
+    color: #233148;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    @media screen and (max-width: 720px) {
+        font-size: 13px;
+    }  
+    @media screen and (max-width: 600px) {
+        font-size: 11px;
+    }
+}
+
+.AdvantageBox__Text {
+    font-size: 14px;
+    line-height: 27px;
+    color: #6a6d89;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 15px;
+    @media screen and (max-width: 720px) {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    @media screen and (max-width: 1062px) and (min-width: 721px) {
+        font-size: 13px;
+        line-height: 24px;
+    }
+    @media screen and (max-width: 600px) {
+        font-size: 10px;
+        line-height: 10px;
+    }
+}
+

@@ -1,1 +1,1456 @@
-/*# sourceMappingURL=TestPage3.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+.Header {
+  width: 100%;
+  height: 800px;
+  background-color: rgb(53, 170, 209);
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-right: 50px;
+  position: relative;
+  overflow: hidden;
+}
+@media (max-width: 720px) {
+  .Header {
+    height: 760px;
+  }
+}
+@media (max-width: 460px) {
+  .Header {
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+@media (max-width: 335px) {
+  .Header {
+    height: 560px;
+  }
+}
+
+.Header__Logo {
+  display: flex;
+  width: 110px;
+  height: 45px;
+  color: white;
+}
+
+.LogoLink {
+  text-decoration: none;
+  width: 110px;
+  height: 45px;
+  display: block;
+}
+
+.Header__LogoIcon {
+  width: 45%;
+  border-right: 2px solid rgba(255, 255, 255, 0.3);
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 460px) {
+  .Header__LogoIcon {
+    font-size: 24px;
+  }
+}
+
+.Header__LogoText {
+  width: 55%;
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+@media (max-width: 460px) {
+  .Header__LogoText {
+    font-size: 10px;
+  }
+}
+
+.Header__Menu {
+  display: flex;
+  justify-content: space-between;
+  width: 30%;
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  align-items: center;
+}
+@media (max-width: 720px) {
+  .Header__Menu {
+    width: 50%;
+  }
+}
+@media (max-width: 460px) {
+  .Header__Menu {
+    width: 10%;
+    font-size: 14px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 10px;
+    margin-right: 80px;
+  }
+}
+
+.Header__Top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Header__MenuLinks {
+  text-decoration: none;
+  color: white;
+}
+
+.Header__Title {
+  text-align: center;
+  font-size: 40px;
+  color: #ffffff;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 100px;
+  margin-bottom: 20px;
+}
+@media (max-width: 720px) {
+  .Header__Title {
+    font-size: 30px;
+  }
+}
+@media (max-width: 400px) {
+  .Header__Title {
+    font-size: 24px;
+    margin-top: 50px;
+  }
+}
+
+.Header__TitleText {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  display: block;
+}
+@media (max-width: 720px) {
+  .Header__TitleText {
+    font-size: 11px;
+  }
+}
+@media (max-width: 460px) {
+  .Header__TitleText {
+    font-size: 10px;
+  }
+}
+
+.Header__Buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Header__Button {
+  width: 150px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 7px;
+  color: white;
+  border: 1px solid white;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+@media (max-width: 720px) {
+  .Header__Button {
+    font-size: 12px;
+    width: 130px;
+    height: 36px;
+  }
+}
+@media (max-width: 335px) {
+  .Header__Button {
+    width: 100px;
+    height: 32px;
+    font-size: 10px;
+  }
+}
+
+.Header__Button:hover {
+  background-color: white;
+  color: black;
+  cursor: pointer;
+}
+
+.Header__DownloadButton {
+  margin-right: 15px;
+}
+
+.Header__PhoneImage {
+  width: 220px;
+  height: 360px;
+  position: absolute;
+  bottom: -5px;
+  left: calc(50% - 110px);
+}
+@media (max-width: 720px) {
+  .Header__PhoneImage {
+    width: 180px;
+    height: 330px;
+    left: calc(50% - 90px);
+  }
+}
+@media (max-width: 335px) {
+  .Header__PhoneImage {
+    width: 120px;
+    height: auto;
+    left: calc(50% - 60px);
+  }
+}
+
+.Main__AdvantagesMenu {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+
+.Main__AdvantagesMenu__ImageBox {
+  width: 35%;
+  padding-right: 50px;
+  text-align: right;
+}
+@media screen and (max-width: 420px) {
+  .Main__AdvantagesMenu__ImageBox {
+    width: 25%;
+    padding-right: 0;
+  }
+}
+
+.Main__AdvantagesMenu__MenuBox {
+  width: 63.2%;
+  padding-right: 20px;
+  padding-top: 100px;
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width: 720px) {
+  .Main__AdvantagesMenu__MenuBox {
+    justify-content: space-between;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .Main__AdvantagesMenu__MenuBox {
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Main__AdvantagesMenu__MenuBox {
+    width: 70%;
+    padding-right: 0;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__AdvantagesMenu__MenuBox {
+    width: 75%;
+    padding-left: 10px;
+    justify-content: space-evenly;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__AdvantagesMenu__MenuBox {
+    padding-left: 25px;
+  }
+}
+
+.Main__PhoneImage {
+  margin-top: 320px;
+  width: 220px;
+}
+@media screen and (max-width: 720px) and (min-width: 601px) {
+  .Main__PhoneImage {
+    margin-top: 200px;
+    margin-left: 40px;
+    width: 180px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .Main__PhoneImage {
+    margin-top: 150px;
+    width: 200px;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 521px) {
+  .Main__PhoneImage {
+    margin-top: 200px;
+    margin-left: 20px;
+    width: 140px;
+  }
+}
+@media screen and (max-width: 520px) and (min-width: 421px) {
+  .Main__PhoneImage {
+    margin-top: 150px;
+    margin-left: 10px;
+    width: 120px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__PhoneImage {
+    margin-top: 160px;
+    margin-left: 2px;
+    width: 90px;
+  }
+}
+
+.AdvantageBox {
+  width: 240px;
+  height: 300px;
+  border-radius: 5px;
+  filter: drop-shadow(0px 6px 4.5px rgba(35, 39, 47, 0.1));
+  background-color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 10px;
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .AdvantageBox {
+    width: 200px;
+    height: 260px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 720px) and (min-width: 601px) {
+  .AdvantageBox {
+    width: 45%;
+    height: 48%;
+  }
+}
+@media screen and (max-width: 600px) and (min-width: 421px) {
+  .AdvantageBox {
+    width: 45%;
+    height: 45%;
+  }
+}
+@media screen and (max-width: 420px) {
+  .AdvantageBox {
+    width: 110px;
+    height: 140px;
+    margin-top: 5px;
+    overflow: scroll;
+  }
+}
+@media screen and (max-width: 342px) {
+  .AdvantageBox {
+    width: 90px;
+    height: 115px;
+    padding: 0;
+  }
+}
+
+.Main__AdvantagesMenu__FreeDays {
+  margin-left: 100px;
+}
+@media screen and (max-width: 720px) and (min-width: 601px) {
+  .Main__AdvantagesMenu__FreeDays {
+    margin-left: 30px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 751px) {
+  .Main__AdvantagesMenu__FreeDays {
+    margin-left: 20px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 721px) {
+  .Main__AdvantagesMenu__FreeDays {
+    margin-left: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Main__AdvantagesMenu__FreeDays {
+    margin-left: 0px;
+  }
+}
+
+.Main__AdvantagesMenu__Support {
+  margin-top: 100px;
+  margin-left: 60px;
+}
+@media screen and (max-width: 720px) {
+  .Main__AdvantagesMenu__Support {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 751px) {
+  .Main__AdvantagesMenu__Support {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 721px) {
+  .Main__AdvantagesMenu__Support {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__AdvantagesMenu__Support {
+    margin-top: 5px;
+  }
+}
+
+.Main__AdvantagesMenu__Design {
+  margin-left: 20px;
+}
+@media screen and (max-width: 720px) and (min-width: 601px) {
+  .Main__AdvantagesMenu__Design {
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 751px) {
+  .Main__AdvantagesMenu__Design {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 721px) {
+  .Main__AdvantagesMenu__Design {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Main__AdvantagesMenu__Design {
+    margin-left: 0px;
+  }
+}
+
+.Main__AdvantagesMenu__User {
+  margin-left: 80px;
+  margin-top: 80px;
+}
+@media screen and (max-width: 720px) and (min-width: 601px) {
+  .Main__AdvantagesMenu__User {
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 751px) {
+  .Main__AdvantagesMenu__User {
+    margin-left: 20px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 750px) and (min-width: 721px) {
+  .Main__AdvantagesMenu__User {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .Main__AdvantagesMenu__User {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__AdvantagesMenu__User {
+    margin-top: 5px;
+  }
+}
+
+.AdvantageBox__ImageContainer {
+  margin: 40px auto;
+  width: 55px;
+  height: 55px;
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 720px) {
+  .AdvantageBox__ImageContainer {
+    margin: 30px auto;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .AdvantageBox__ImageContainer {
+    margin: 25px auto;
+    margin-bottom: 5px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AdvantageBox__ImageContainer {
+    margin: 20px auto;
+    margin-bottom: 0px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 600px) and (max-width: 342px) {
+  .AdvantageBox__ImageContainer {
+    margin: 10px auto;
+    height: 20px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .AdvantageBox__ImageContainer__Image {
+    width: 40px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .AdvantageBox__ImageContainer__Image {
+    width: 45px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AdvantageBox__ImageContainer__Image {
+    width: 30px;
+    height: auto;
+  }
+}
+@media screen and (max-width: 342px) {
+  .AdvantageBox__ImageContainer__Image {
+    width: 20px;
+    height: auto;
+  }
+}
+
+.AdvantageBox__Title {
+  font-size: 14px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+@media screen and (max-width: 720px) {
+  .AdvantageBox__Title {
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AdvantageBox__Title {
+    font-size: 11px;
+  }
+}
+
+.AdvantageBox__Text {
+  font-size: 14px;
+  line-height: 27px;
+  color: #6a6d89;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  margin-top: 15px;
+}
+@media screen and (max-width: 720px) {
+  .AdvantageBox__Text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 1062px) and (min-width: 721px) {
+  .AdvantageBox__Text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .AdvantageBox__Text {
+    font-size: 10px;
+    line-height: 10px;
+  }
+}
+
+.Main__StableAndReady {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 200px;
+}
+@media screen and (max-width: 720px) {
+  .Main__StableAndReady {
+    margin-top: 120px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .Main__StableAndReady {
+    height: 480px;
+  }
+}
+
+.StableAndReady__DownloadBox {
+  width: 40%;
+  text-align: right;
+  padding-top: 30px;
+}
+@media screen and (max-width: 720px) {
+  .StableAndReady__DownloadBox {
+    padding-top: 0px;
+    text-align: center;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .StableAndReady__DownloadBox {
+    padding: 0;
+  }
+}
+
+.DownloadBox__Title {
+  font-size: 30px;
+  color: #233148;
+  font-weight: 700;
+  font-family: "Work Sans";
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 720px) and (min-width: 661px) {
+  .DownloadBox__Title {
+    font-size: 26px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .DownloadBox__Title {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+}
+
+.DownloadBox__Text {
+  font-size: 14px;
+  line-height: 27px;
+  color: #6a6d89;
+  font-weight: 400;
+  font-family: "Work Sans";
+  margin-bottom: 25px;
+}
+@media screen and (max-width: 720px) {
+  .DownloadBox__Text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 660px) and (min-width: 501px) {
+  .DownloadBox__Text {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .DownloadBox__Text {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
+
+.DownloadBox__Button {
+  width: 200px;
+  height: 50px;
+  border-radius: 5px;
+  background-color: #33d2fd;
+  border: 0;
+  font-size: 15px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 720px) and (min-width: 661px) {
+  .DownloadBox__Button {
+    font-size: 14px;
+    width: 180px;
+    height: 45px;
+  }
+}
+@media screen and (max-width: 660px) and (min-width: 501px) {
+  .DownloadBox__Button {
+    font-size: 13px;
+    width: 170px;
+    height: 40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .DownloadBox__Button {
+    font-size: 12px;
+    width: 140px;
+    height: 35px;
+  }
+}
+
+.DownloadBox__Button:hover {
+  cursor: pointer;
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}
+
+.StableAndReady__DescriptionBox {
+  width: 50%;
+  display: grid;
+  grid-template-columns: repeat(1, 4);
+  padding-left: 30px;
+  height: 450px;
+}
+@media screen and (max-width: 720px) {
+  .StableAndReady__DescriptionBox {
+    height: 400px;
+    padding-left: 0px;
+  }
+}
+
+.DescriptionBox__Box {
+  width: 85%;
+  height: 80px;
+  filter: drop-shadow(0px 6px 4.5px rgba(35, 39, 47, 0.1));
+  background-color: #ffffff;
+  display: flex;
+}
+@media screen and (max-width: 720px) {
+  .DescriptionBox__Box {
+    height: 70px;
+    width: 95%;
+  }
+}
+
+.DescriptionBox__Box:hover {
+  background-color: #33d2fd;
+  height: 140px;
+  transition: height 0.3s ease;
+}
+
+.DesxriptionBox__Box__BoxIcon {
+  width: 100px;
+  text-align: center;
+  font-size: 28px;
+  padding-top: 25px;
+  padding-left: 15px;
+  color: rgba(0, 0, 0, 0.732);
+}
+@media screen and (max-width: 720px) and (min-width: 661px) {
+  .DesxriptionBox__Box__BoxIcon {
+    width: 100px;
+    font-size: 22px;
+    padding-top: 25px;
+    padding-left: 10px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .DesxriptionBox__Box__BoxIcon {
+    font-size: 20px;
+    padding-top: 27px;
+  }
+}
+
+.DescriptionBox__Box__BoxText {
+  padding-top: 30px;
+  overflow: hidden;
+}
+@media screen and (max-width: 720px) {
+  .DescriptionBox__Box__BoxText {
+    padding-top: 28px;
+  }
+}
+
+.BoxText__Title {
+  font-size: 15px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 720px) and (min-width: 661px) {
+  .BoxText__Title {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 660px) {
+  .BoxText__Title {
+    font-size: 12px;
+  }
+}
+
+.BotText__Text {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 720px) {
+  .BotText__Text {
+    font-size: 13px;
+  }
+}
+
+.Main__EverythingYouNeed {
+  width: 100%;
+  max-width: 1140px;
+  display: flex;
+  justify-content: space-between;
+}
+@media screen and (max-width: 500px) {
+  .Main__EverythingYouNeed {
+    flex-wrap: wrap;
+  }
+}
+
+.EveyrthingYouNeed__ImageBox {
+  width: 45%;
+}
+@media screen and (max-width: 900px) {
+  .EveyrthingYouNeed__ImageBox {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 720px) {
+  .EveyrthingYouNeed__ImageBox {
+    width: 45%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .EveyrthingYouNeed__ImageBox {
+    width: 80%;
+    margin: 0 auto;
+  }
+}
+
+.ImageBox__Image {
+  width: 450px;
+  height: auto;
+  margin: 0 auto;
+  display: block;
+  border-radius: 10px;
+  box-shadow: 10px 10px 7px -8px rgba(0, 0, 0, 0.64);
+}
+@media screen and (max-width: 900px) and (min-width: 721px) {
+  .ImageBox__Image {
+    width: 360px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .ImageBox__Image {
+    width: 100%;
+    margin: 40px auto;
+  }
+}
+
+.EveyrthingYouNeed__TextBox {
+  width: 45%;
+  text-align: left;
+  padding-right: 30px;
+}
+@media screen and (max-width: 720px) {
+  .EveyrthingYouNeed__TextBox {
+    width: 50%;
+    padding-right: 10px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .EveyrthingYouNeed__TextBox {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.EveyrthingYouNeed__TextBox__PhoneBox {
+  display: flex;
+  margin-top: 10px;
+}
+@media screen and (max-width: 500px) {
+  .EveyrthingYouNeed__TextBox__PhoneBox {
+    justify-content: center;
+  }
+}
+
+.EveyrthingYouNeed__TextBox__Title {
+  font-size: 30px;
+  color: #233148;
+  font-weight: 700;
+  font-family: "Work Sans";
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+@media screen and (max-width: 900px) {
+  .EveyrthingYouNeed__TextBox__Title {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .EveyrthingYouNeed__TextBox__Title {
+    font-size: 22px;
+    margin-bottom: 15px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .EveyrthingYouNeed__TextBox__Title {
+    font-size: 18px;
+  }
+}
+
+.EverythingYouNeed__TextBox__CheckBox {
+  background-color: #33d2fd;
+  width: 18px;
+  height: 18px;
+  border-radius: 9px;
+  text-align: center;
+  font-size: 11px;
+  padding: 4px;
+}
+@media screen and (max-width: 600px) {
+  .EverythingYouNeed__TextBox__CheckBox {
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .EverythingYouNeed__TextBox__CheckBox {
+    font-size: 9px;
+  }
+}
+
+.EveyrthingYouNeed__TextBox__OSCheck {
+  margin-left: 12px;
+  font-size: 15px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans";
+  padding-bottom: 2px;
+}
+@media screen and (max-width: 600px) {
+  .EveyrthingYouNeed__TextBox__OSCheck {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .EveyrthingYouNeed__TextBox__OSCheck {
+    font-size: 12px;
+    padding-bottom: 0;
+    padding-top: 2px;
+  }
+}
+
+.EveyrthingYouNeed__TextBox__Text {
+  font-size: 14px;
+  line-height: 27px;
+  color: #6a6d89;
+  font-weight: 400;
+  font-family: "Work Sans";
+  margin-top: 40px;
+}
+@media screen and (max-width: 900px) and (min-width: 601px) {
+  .EveyrthingYouNeed__TextBox__Text {
+    margin-top: 10px;
+    line-height: 22px;
+  }
+}
+@media screen and (max-width: 600px) {
+  .EveyrthingYouNeed__TextBox__Text {
+    font-size: 13px;
+    line-height: 18px;
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .EveyrthingYouNeed__TextBox__Text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.Main__DownloadBox {
+  width: 100%;
+  background-color: rgb(22, 202, 247);
+  height: 700px;
+  display: flex;
+  margin-top: 50px;
+}
+@media screen and (max-width: 450px) {
+  .Main__DownloadBox {
+    height: 540px;
+  }
+}
+
+.Main__DownloadBox__PhoneImageBox {
+  width: 50%;
+}
+@media screen and (max-width: 450px) {
+  .Main__DownloadBox__PhoneImageBox {
+    width: 30%;
+  }
+}
+
+.Main__Downloadbox__Image {
+  width: 230px;
+  height: auto;
+  margin-top: 110px;
+  margin-left: 35%;
+}
+@media screen and (max-width: 780px) and (min-width: 621px) {
+  .Main__Downloadbox__Image {
+    width: 200px;
+    margin-left: 25%;
+  }
+}
+@media screen and (max-width: 620px) and (min-width: 451px) {
+  .Main__Downloadbox__Image {
+    width: 160px;
+    margin-left: 20%;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Main__Downloadbox__Image {
+    width: 120px;
+    margin-left: 5%;
+  }
+}
+
+.Main__DownloadBox__ButtonsBox {
+  width: 50%;
+  text-align: left;
+  padding-left: 10px;
+  padding-right: 70px;
+}
+@media screen and (max-width: 450px) {
+  .Main__DownloadBox__ButtonsBox {
+    width: 70%;
+    padding-right: 5px;
+    padding-left: 50px;
+    text-align: center;
+  }
+}
+
+.Main__DownloadBox__ButtonsBox__Buttons {
+  margin-top: 30px;
+  display: flex;
+}
+@media screen and (max-width: 700px) {
+  .Main__DownloadBox__ButtonsBox__Buttons {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 450px) {
+  .Main__DownloadBox__ButtonsBox__Buttons {
+    flex-wrap: nowrap;
+    display: grid;
+    grid-template-rows: auto auto;
+  }
+}
+
+.Main__DownloadBox__ButtonsBox__Title {
+  font-size: 28px;
+  color: #233148;
+  font-weight: 700;
+  font-family: "Work Sans";
+  margin-top: 45%;
+}
+@media screen and (max-width: 620px) {
+  .Main__DownloadBox__ButtonsBox__Title {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__DownloadBox__ButtonsBox__Title {
+    font-size: 24px;
+  }
+}
+
+.Main__DownloadBox__ButtonsBox__Text {
+  font-size: 14px;
+  line-height: 27px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Work Sans";
+}
+@media screen and (max-width: 620px) {
+  .Main__DownloadBox__ButtonsBox__Text {
+    font-size: 13px;
+    line-height: 24px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .Main__DownloadBox__ButtonsBox__Text {
+    font-size: 12px;
+    line-height: 16px;
+  }
+}
+
+.ButtonsBox__Buttons_Button {
+  width: 160px;
+  height: 45px;
+  border-radius: 5px;
+  border: 1px solid grey;
+}
+@media screen and (max-width: 780px) {
+  .ButtonsBox__Buttons_Button {
+    width: 125px;
+    height: 35px;
+  }
+}
+@media screen and (max-width: 700px) {
+  .ButtonsBox__Buttons_Button {
+    width: 140px;
+    height: 40px;
+  }
+}
+
+.GPlayButtonMargin {
+  margin-left: 30px;
+}
+@media screen and (max-width: 700px) {
+  .GPlayButtonMargin {
+    margin-left: 0;
+    margin-top: 30px;
+  }
+}
+
+.FooterMenu {
+  width: 100%;
+  max-width: 1140px;
+}
+
+.FooterMenu__Button {
+  width: 370px;
+  height: 70px;
+  background-image: linear-gradient(180deg, #ff7c6e 1%, #f5317f 99%);
+  box-shadow: 0px 11px 14.5px 0px rgba(255, 7, 94, 0.2);
+  border: 0px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 720px) and (min-width: 501px) {
+  .FooterMenu__Button {
+    width: 340px;
+    height: 65px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__Button {
+    width: 280px;
+    height: 55px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__Button {
+    width: 250px;
+    height: 50px;
+    font-size: 14px;
+  }
+}
+
+.FooterMenu__ButtonBox {
+  text-align: center;
+  margin-top: -35px;
+}
+
+.FooterMenu__LinksListBox {
+  margin: 100px auto;
+  width: 60%;
+  height: 180px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 70px;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__LinksListBox {
+    margin-top: 60px;
+    margin-bottom: 50px;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__LinksListBox {
+    width: 95%;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 25px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__LinksListBox {
+    margin: 40px 5px 15px 5px;
+  }
+}
+
+.FooterMenu__LinksListBox__Column {
+  text-align: left;
+  display: grid;
+  grid-template-rows: 50px 18px 18px 18px 18px;
+  grid-gap: 10px;
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__LinksListBox__Column {
+    font-size: 11px;
+    grid-template-rows: 40px 15px 15px 15px 15px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .FooterMenu__LinksListBox__Column {
+    text-align: center;
+  }
+}
+
+.FooterMenu__LinksListBox__Column_Title {
+  font-size: 15px;
+  line-height: 27px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__LinksListBox__Column_Title {
+    font-size: 14px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__LinksListBox__Column_Title {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .FooterMenu__LinksListBox__Column_Title {
+    font-size: 10px;
+  }
+}
+
+.LinksListBox__ColumnLink {
+  text-decoration: none;
+  font-size: 14px;
+  color: #6a6d89;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  margin-bottom: 10px;
+}
+@media screen and (max-width: 720px) {
+  .LinksListBox__ColumnLink {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .LinksListBox__ColumnLink {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .LinksListBox__ColumnLink {
+    font-size: 9px;
+  }
+}
+
+.FooterMenu__TitleTouch {
+  font-size: 30px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__TitleTouch {
+    font-size: 26px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__TitleTouch {
+    font-size: 22px;
+  }
+}
+
+.FooterMenu__TitleText {
+  font-size: 14px;
+  color: #6a6d89;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  text-align: center;
+  display: block;
+  margin-top: 25px;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__TitleText {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__TitleText {
+    font-size: 13px;
+  }
+}
+
+.FooterMenu__InputBox {
+  margin: 0 auto;
+  width: 75%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 60px;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__InputBox {
+    margin-top: 50px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .FooterMenu__InputBox {
+    width: 95%;
+    justify-content: space-between;
+  }
+}
+
+.FooterMenu__InputBox__Input {
+  width: 65%;
+  height: 50px;
+  background-color: #f6f7fb;
+  border: 0px;
+  font-size: 20px;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__InputBox__Input {
+    width: 70%;
+    height: 40px;
+  }
+}
+
+.FooterMenu__InputBox__Button {
+  background-color: #33d2fd;
+  border: 0px;
+  height: 50px;
+  width: 100%;
+  font-size: 15px;
+  color: #233148;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  cursor: pointer;
+}
+@media screen and (max-width: 720px) {
+  .FooterMenu__InputBox__Button {
+    height: 40px;
+    font-size: 13px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterMenu__InputBox__Button {
+    font-size: 11px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .FooterMenu__InputBox__Button {
+    font-size: 10px;
+  }
+}
+
+.InputBox__Button__Anchor {
+  width: 20%;
+}
+@media screen and (max-width: 360px) {
+  .InputBox__Button__Anchor {
+    width: 25%;
+  }
+}
+
+.FooterBar {
+  width: 100%;
+  max-width: 1140px;
+  background-color: #233148;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 80px;
+}
+@media screen and (max-width: 360px) {
+  .FooterBar {
+    margin-top: 50px;
+  }
+}
+
+.FooterBar__CopyrightBox {
+  margin-left: 50px;
+}
+@media screen and (max-width: 720px) {
+  .FooterBar__CopyrightBox {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterBar__CopyrightBox {
+    margin-left: 20px;
+  }
+}
+
+.FooterBar__CopyrightBox__Text {
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  margin-left: 3px;
+}
+@media screen and (max-width: 500px) {
+  .FooterBar__CopyrightBox__Text {
+    font-size: 12px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterBar__CopyrightBox__Text {
+    font-size: 10px;
+  }
+}
+
+.FooterBar__CopyrightBox__Icon {
+  font-size: 10px;
+  color: #ffffff;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+}
+@media screen and (max-width: 500px) {
+  .FooterBar__CopyrightBox__Icon {
+    font-size: 8px;
+  }
+}
+
+.FooterBar__IconBox {
+  width: 27%;
+  display: flex;
+  justify-content: space-between;
+  font-size: 23px;
+  margin-right: 30px;
+}
+@media screen and (max-width: 720px) {
+  .FooterBar__IconBox {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .FooterBar__IconBox {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+@media screen and (max-width: 360px) {
+  .FooterBar__IconBox {
+    font-size: 18px;
+    width: 45%;
+  }
+}
+
+.FooterBar__Icon {
+  color: white;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.Page {
+  width: 100%;
+  max-width: 1140px;
+  background-color: white;
+  margin: 0 auto;
+}/*# sourceMappingURL=TestPage3.css.map */

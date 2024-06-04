@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.Header {
+    width: 100%;
+    height: 800px;
+    background-color: rgb(53, 170, 209);
+    padding-top: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+    position: relative;
+    overflow: hidden;
+    @media (max-width: 720px) {
+        height: 760px;
+    }
+    @media (max-width: 460px) {
+        padding-top: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    @media (max-width: 335px) {
+        height: 560px;
+    }
+}
+
+.Header__Logo {
+    display: flex;
+    width: 110px;
+    height: 45px;
+    color: white;    
+}
+
+.LogoLink {
+    text-decoration: none;
+    width: 110px;
+    height: 45px;
+    display: block;
+}
+
+.Header__LogoIcon {
+  width: 45%;
+  border-right: 2px solid rgb(255, 255, 255, 0.3);
+  font-size: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  @media (max-width: 460px) {
+    font-size: 24px;
+}
+}
+
+.Header__LogoText {
+  width: 55%;
+  font-size: 12px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 500;
+  text-align: left;
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+  @media (max-width: 460px) {
+    font-size: 10px;
+}
+}
+
+.Header__Menu {
+    display: flex;
+    justify-content: space-between;
+    width: 30%;
+    font-size: 16px;
+    font-family: "Work Sans", sans-serif;
+    font-weight: 500;
+    align-items: center;
+    @media (max-width: 720px) {
+        width: 50%;
+    }
+    @media (max-width: 460px) {
+        width: 10%;
+        font-size: 14px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+        margin-right: 80px;
+    }
+}
+
+.Header__Top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.Header__MenuLinks {
+    text-decoration: none;
+    color: white;
+}
+
+.Header__Title {
+    text-align: center;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 700;
+    font-family: "Work Sans", sans-serif;
+    margin-top: 100px;
+    margin-bottom: 20px;
+    @media (max-width: 720px) {
+        font-size: 30px;
+    }
+    @media (max-width: 400px) {
+        font-size: 24px;
+        margin-top: 50px;
+    }
+}
+
+.Header__TitleText {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    display: block;
+    @media (max-width: 720px) {
+        font-size: 11px;
+    }
+    @media (max-width: 460px) {
+        font-size: 10px;
+    }
+}
+.Header__Buttons {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Header__Button {
+    width: 150px;
+    height: 40px;
+    background-color: rgb(255, 255, 255, 0);
+    border-radius: 7px;
+    color: white;
+    border: 1px solid white;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Work Sans", sans-serif;
+    text-align: center;
+    @media (max-width: 720px) {
+        font-size: 12px;
+        width: 130px;
+        height: 36px;
+    }
+    @media (max-width: 335px) {
+        width: 100px;
+        height: 32px;
+        font-size: 10px;
+    }
+}
+
+.Header__Button:hover {
+   background-color: white;
+   color: black;
+   cursor: pointer;
+}
+
+.Header__DownloadButton {
+    margin-right: 15px;
+}
+
+.Header__PhoneImage {
+    width: 220px;
+    height: 360px;
+    position: absolute;
+    bottom: -5px;
+    left: calc(50% - 110px);
+    @media (max-width: 720px) {
+        width: 180px;
+        height: 330px;
+        left: calc(50% - 90px);
+    }
+    @media (max-width: 335px) {
+        width: 120px;
+        height: auto;
+        left: calc(50% - 60px);
+    }
+}

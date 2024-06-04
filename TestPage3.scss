@@ -1,0 +1,18 @@
+@import "styles/_header";
+@import "styles/_mainAdvantages";
+@import "styles/_mainStableAndReady";
+@import "styles/_mainEverythingYouNeed";
+@import "styles/_mainDownloadBox";
+@import "styles/_FooterMenu";
+@import "styles/_footerBar";
+
+* {
+    box-sizing: border-box;
+}
+
+.Page {
+    width: 100%;
+    max-width: 1140px;
+    background-color: white;
+    margin: 0 auto;
+}
